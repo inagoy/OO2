@@ -1,0 +1,17 @@
+package ar.edu.unlp.info.oo2.facturacion_llamadas_refactory;
+
+import java.time.Duration;
+
+public abstract class Llamada {
+	private Duration duracion;
+	private String numeroEmisor;
+	private String numeroRemitente;
+	
+	public Llamada(Duration duracion, String numeroEmisor, String numeroRemitente) {
+		this.duracion = duracion;
+		this.numeroEmisor = numeroEmisor;
+		this.numeroRemitente = numeroRemitente;
+	}
+	
+	abstract public double calcularPrecio();
+}

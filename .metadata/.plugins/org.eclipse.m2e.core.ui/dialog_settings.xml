@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Iñaki\Desktop\facturacion_llamadas"/>
+			<item value="E:\Informatica\OO2\Proyectos Eclipse\ej12"/>
+			<item value="E:\Informatica\OO2\Proyectos Eclipse\ej2"/>
+			<item value="E:\Informatica\OO2\Proyectos Eclipse"/>
+			<item value="E:\Informatica\OO2\Proyectos Eclipse\ej1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="defaultLocal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="ar.edu.unlp.info.oo2.facturacion_llamadas_refactory"/>
+			<item value="ar.edu.unlp.info.oo2"/>
+			<item value="ar.edu.unlp.info.oo2.ej14"/>
+			<item value="ar.edu.unlp.info.oo2.ej12"/>
+			<item value="ar.edu.unlp.info.oo2.ej8"/>
+			<item value="ar.edu.unlp.info.oo2.ej7"/>
+			<item value="ar.edu.unlp.info.oo2.ej4"/>
+			<item value="ar.edu.unlp.info.oo2.ej3"/>
+			<item value="ar.edu.unlp.info.oo2.ej2"/>
+			<item value="ar.edu.unlp.info.oo2.ej1"/>
+		</list>
+		<list key="groupId">
+			<item value="ar.edu.unlp.info.oo2"/>
+		</list>
+		<list key="artifactId">
+			<item value="facturacion_llamadas_refactory"/>
+			<item value="ej14"/>
+			<item value="ej12"/>
+			<item value="ej8"/>
+			<item value="ej7"/>
+			<item value="ej4"/>
+			<item value="ej3"/>
+			<item value="ej2"/>
+			<item value="ej1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="529"/>
+		<item key="x" value="601"/>
+		<item key="y" value="50"/>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+		<list key="archetypeGroupId">
+			<item value="ar.edu.unlp.info.oo2"/>
+		</list>
+		<list key="archetypeArtifactId">
+			<item value="objetos-dos"/>
+		</list>
+		<list key="archetypeVersion">
+			<item value="0.0.2"/>
+		</list>
+		<list key="repositoryUrl">
+			<item value="https://github.com/unlp-info-objetos/oo2-2022/blob/main/oo2_archetype-archetype-0.0.2/oo2_archetype-archetype-0.0.2.jar?raw=true"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Iñaki\Desktop\facturacion_llamadas"/>
+			<item value="E:\Informatica\OO2\Proyectos Eclipse\ej2"/>
+			<item value="E:\Informatica\OO2\Proyectos Eclipse\ej-biblioteca"/>
+			<item value="C:\Users\Iñaki\Downloads\ej-biblioteca"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

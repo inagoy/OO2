@@ -1,0 +1,25 @@
+package ar.edu.unlp.info.oo2.facturacion_llamadas_refactory;
+
+public class PersoonaJuridica extends Persoona {
+	private double cuit;
+	
+	public PersoonaJuridica(String telefono, String nombre, String apellido) {
+		super(telefono, nombre, apellido);
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+
+	private double cuit;
+	
+	
+
+
+	@Override
+	public double calcularMonto(Llamada unaLlamada) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

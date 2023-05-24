@@ -1,0 +1,21 @@
+package ar.edu.unlp.info.oo2.facturacion_llamadas_refactory;
+
+public class PersoonaFisica extends Persoona {
+	private static double descuento = 0;
+	private String dni;
+	
+	public PersoonaJuridica(String telefono, String nombre, String apellido, String dni) {
+		super(telefono, nombre, apellido);
+		this.dni = dni;
+	}
+
+	@Override
+	protected double getDescuento() {
+		return PersoonaJuridica.descuento;
+	}
+
+	public String getCuit() {
+		return cuit;
+	}
+
+}

@@ -1,0 +1,11 @@
+package ar.edu.unlp.info.oo2.facturacion_llamadas_refactory;
+
+public class LlamadaNacional extends Llamada {
+
+	@Override
+	public double calcularPrecio() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,16 @@
+package ar.edu.unlp.info.oo2.facturacion_llamadas_refactory;
+
+public class LlamadaInternacional extends Llamada {
+	static private double factorCosto = 200;
+	
+	public LlamadaInternacional(double duracion, String numeroEmisor, String numeroRemitente) {
+		super(duracion, numeroEmisor, numeroRemitente);
+	}
+	
+	@Override
+	public double calcularPrecio() {
+		return (this.duracion * LlamadaInternacional.factorCosto + 
+				(this.duracion * LlamadaInternacional.factorCosto * 0.21));
+	}
+
+}

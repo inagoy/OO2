@@ -1,0 +1,15 @@
+package ar.edu.unlp.info.oo2.facturacion_llamadas_refactory;
+
+public class LlamadaNacional extends Llamada {
+	private static double factorCosto = 3;
+	
+	public LlamadaNacional(String telefonoRemitente, double duracion) {
+		super(telefonoRemitente, duracion);
+	}
+	
+	@Override
+	public double getFactorCosto() {
+		return LlamadaNacional.factorCosto;
+	}
+
+}

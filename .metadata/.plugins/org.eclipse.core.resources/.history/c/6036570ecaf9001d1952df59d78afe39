@@ -1,0 +1,12 @@
+package ar.edu.unlp.info.oo2.facturacion_llamadas_refactory;
+
+public class LlamadaNacional extends Llamada {
+	static private double factorDescuento = 3;
+	
+	
+	@Override
+	public double calcularPrecio() {
+		return (this.duracion * this.factorDescuento + (this.duracion * this.factorDescuento * 0.21));
+	}
+
+}

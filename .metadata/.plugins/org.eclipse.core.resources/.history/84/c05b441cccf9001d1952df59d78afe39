@@ -1,0 +1,16 @@
+package ar.edu.unlp.info.oo2.facturacion_llamadas_refactory;
+
+public class Persoona {
+	private String telefono;
+	private String nombre;
+	private String apellido;
+	
+	public Persoona(String telefono, String nombre, String apellido) {
+		super();
+		this.telefono = telefono;
+		this.nombre = nombre;
+		this.apellido = apellido;
+	}
+	
+	
+}

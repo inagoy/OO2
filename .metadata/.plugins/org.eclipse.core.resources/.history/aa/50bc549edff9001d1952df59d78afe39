@@ -1,0 +1,37 @@
+package ar.edu.unlp.info.oo2.facturacion_llamadas_refactory;
+
+import java.util.List;
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class Persoonal {
+	public SortedSet<String> guia = new TreeSet<String>();
+	private List<Persoona> usuarios;
+	
+	public Persoona registrarUsuario (Persoona unaPersoona){
+		
+		String numeroDisponible = guia.last();
+		guia.remove(numeroDisponible);
+		unaPersoona.setTelefono(numeroDisponible);
+		this.usuarios.add(unaPersoona);
+		return unaPersoona;
+	}
+	public boolean eliminarUsuario(Persoona unaPersoona) {
+		this.agregarTelefono(unaPersoona.getTelefono());
+		return this.usuarios.remove(unaPersoona);
+		
+	}
+	
+	public boolean agregarTelefono(String telefono) {
+		return guia.add(telefono);
+	}
+
+	public int cantidadDeUsuarios() {
+		return usuarios.size();
+	}
+	
+	public boolean existeUsuario(Persoona persona) {
+		return usuarios.contains(persona);
+	}	
+	
+}
