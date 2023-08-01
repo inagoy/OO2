@@ -1,10 +1,10 @@
 package ar.edu.unlp.info.oo2.facturacion_llamadas_refactory;
 
 public abstract class Llamada {
-	protected double duracion;
+	protected int duracion;
 	private String telefonoRemitente;
 	private String telefonoEmisor;
-	public Llamada(String telefonoEmisor, String telefonoRemitente,double duracion) {
+	public Llamada(String telefonoEmisor, String telefonoRemitente,int duracion) {
 		this.telefonoRemitente = telefonoRemitente;
 		this.telefonoEmisor = telefonoEmisor;
 		this.duracion = duracion;

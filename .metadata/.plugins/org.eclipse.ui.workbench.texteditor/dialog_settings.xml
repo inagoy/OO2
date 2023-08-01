@@ -5,25 +5,37 @@
 		<item key="DIALOG_Y_ORIGIN" value="306"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="guiaTelefonica"/>
+		<item key="selection" value="guia"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="lista3"/>
+			<item value="lista2"/>
+			<item value="lista1"/>
+			<item value="personas"/>
+			<item value="persoonas"/>
+			<item value="nya"/>
 			<item value="guia"/>
 			<item value="compare"/>
 			<item value="getExcursion()"/>
 		</list>
 		<list key="replacehistory">
+			<item value="guia"/>
+			<item value="llamadas"/>
+			<item value="usuarios"/>
+			<item value="personas"/>
+			<item value=""/>
+			<item value="nombre"/>
 			<item value="guiaTelefonica"/>
 			<item value="excursion"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="647"/>
-		<item key="DIALOG_Y_ORIGIN" value="178"/>
+		<item key="DIALOG_X_ORIGIN" value="1156"/>
+		<item key="DIALOG_Y_ORIGIN" value="83"/>
 		<item key="DIALOG_WIDTH" value="322"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>

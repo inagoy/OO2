@@ -11,7 +11,7 @@ public class Persoonal {
 	public Persoonal() {
 		this.usuarios = new ArrayList<>();
 	}
-	public Persoona registrarUsuario (Persoona unaPersoona){
+	private Persoona registrarUsuario (Persoona unaPersoona){
 		
 		if (guiaTelefonica.size() > 0) {
 			String numeroDisponible = guiaTelefonica.last();
@@ -22,6 +22,12 @@ public class Persoonal {
 		}
 		return null;
 	}
+	public Persoona registrarUsuarioFisico (String dni, String nombreYAapellido){
+		return (registrarUsuario(new PersoonaFisica(dni, nombreYAapellido)));
+	}	
+	public Persoona registrarUsuarioJuridico (String cuit, String nombreFantasia){
+		return (registrarUsuario(new PersoonaJuridica(cuit, nombreFantasia)));
+	}	
 	
 	public boolean eliminarUsuario(Persoona unaPersoona) {
 		this.agregarTelefono(unaPersoona.getTelefono());

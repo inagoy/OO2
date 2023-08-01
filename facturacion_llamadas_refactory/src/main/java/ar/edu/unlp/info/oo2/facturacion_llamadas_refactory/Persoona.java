@@ -12,9 +12,19 @@ public abstract class Persoona {
 		this.llamadas = new ArrayList<>();
 	}
 	
-	public void registrarLlamada(Llamada unaLlamada) {
+	private void registrarLlamada(Llamada unaLlamada) {
 		this.llamadas.add(unaLlamada);
 	}
+	public Llamada registrarLlamadaNacional(Persoona remitente, int duracion) {
+		Llamada llamada = new LlamadaNacional(this.getTelefono(), remitente.getTelefono(), duracion);
+		this.registrarLlamada(llamada);
+		return llamada;
+	}
+	public Llamada registrarLlamadaInternacional(Persoona remitente, int duracion) {
+		Llamada llamada = new LlamadaInternacional(this.getTelefono(), remitente.getTelefono(), duracion);
+		this.registrarLlamada(llamada);
+		return llamada;
+	}	
 	
 	public double calcularMonto(Llamada unaLlamada) {
 		return (unaLlamada.calcularPrecio() - unaLlamada.calcularPrecio()* this.getDescuento());

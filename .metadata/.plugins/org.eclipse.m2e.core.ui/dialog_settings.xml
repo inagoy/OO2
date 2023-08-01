@@ -2,7 +2,11 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Informatica\OO2\Proyectos Eclipse\ejParcial"/>
+			<item value="E:\Informatica\OO2\Proyectos Eclipse\ej20"/>
 			<item value="C:\Users\Iñaki\Desktop\facturacion_llamadas"/>
+			<item value="E:\Informatica\OO2\Proyectos Eclipse\ej5"/>
+			<item value="C:\Users\Iñaki\Desktop\facturacion_llamadas _original"/>
 			<item value="E:\Informatica\OO2\Proyectos Eclipse\ej12"/>
 			<item value="E:\Informatica\OO2\Proyectos Eclipse\ej2"/>
 			<item value="E:\Informatica\OO2\Proyectos Eclipse"/>
@@ -30,30 +34,41 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="ar.edu.unlp.info.oo2.facturacion_llamadas_refactory"/>
+			<item value="ar.edu.unlp.info.oo2.singleton"/>
+			<item value="ar.edu.unlp.info.oo2.pruebaSingleton"/>
+			<item value="ar.edu.unlp.info.oo2.prueba"/>
+			<item value="ar.edu.unlp.info.oo2.ejParcial"/>
+			<item value="ar.edu.unlp.info.oo2.ej21"/>
+			<item value="ar.edu.unlp.info.oo2.ej20"/>
+			<item value="ar.edu.unlp.info.oo2.ej14_repaso"/>
+			<item value="ar.edu.unlp.info.oo2.ej13"/>
+			<item value="ar.edu.unlp.info.oo2.ej11"/>
+			<item value="ar.edu.unlp.info.oo2.ej10"/>
+			<item value="ar.edu.unlp.info.oo2.ej7_repaso"/>
+			<item value="ar.edu.unlp.info.oo2.ej6"/>
+			<item value="ar.edu.unlp.info.oo2.ej5"/>
 			<item value="ar.edu.unlp.info.oo2"/>
-			<item value="ar.edu.unlp.info.oo2.ej14"/>
-			<item value="ar.edu.unlp.info.oo2.ej12"/>
-			<item value="ar.edu.unlp.info.oo2.ej8"/>
-			<item value="ar.edu.unlp.info.oo2.ej7"/>
-			<item value="ar.edu.unlp.info.oo2.ej4"/>
-			<item value="ar.edu.unlp.info.oo2.ej3"/>
-			<item value="ar.edu.unlp.info.oo2.ej2"/>
-			<item value="ar.edu.unlp.info.oo2.ej1"/>
+			<item value="ar.edu.unlp.info.oo2.facturacion_llamadas"/>
 		</list>
 		<list key="groupId">
 			<item value="ar.edu.unlp.info.oo2"/>
 		</list>
 		<list key="artifactId">
-			<item value="facturacion_llamadas_refactory"/>
-			<item value="ej14"/>
-			<item value="ej12"/>
-			<item value="ej8"/>
-			<item value="ej7"/>
-			<item value="ej4"/>
-			<item value="ej3"/>
-			<item value="ej2"/>
-			<item value="ej1"/>
+			<item value="singleton"/>
+			<item value="pruebaSingleton"/>
+			<item value="prueba"/>
+			<item value="ejParcial"/>
+			<item value="ej21"/>
+			<item value="ej20"/>
+			<item value="ej14_repaso"/>
+			<item value="ej13"/>
+			<item value="ej11"/>
+			<item value="ej10"/>
+			<item value="ej7_repaso"/>
+			<item value="ej6"/>
+			<item value="ej5"/>
+			<item value="facturacion_llamadas"/>
+			<item value="facturacion_llamadas_original"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -108,6 +123,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Iñaki\Desktop\Refactoring - Ejercicio 3 - Para Entregar\facturacion_llamadas_original"/>
+			<item value="C:\Users\Iñaki\Desktop\Refactoring - Ejercicio 3 - Para Entregar\facturacion_llamadas"/>
+			<item value="C:\Users\Iñaki\Desktop\facturacion_llamadas _original"/>
 			<item value="C:\Users\Iñaki\Desktop\facturacion_llamadas"/>
 			<item value="E:\Informatica\OO2\Proyectos Eclipse\ej2"/>
 			<item value="E:\Informatica\OO2\Proyectos Eclipse\ej-biblioteca"/>

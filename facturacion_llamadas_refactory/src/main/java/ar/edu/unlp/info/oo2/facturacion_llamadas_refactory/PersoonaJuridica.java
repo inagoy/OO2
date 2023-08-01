@@ -1,7 +1,7 @@
 package ar.edu.unlp.info.oo2.facturacion_llamadas_refactory;
 
 public class PersoonaJuridica extends Persoona {
-	private static double descuento = 0.15;
+	private static final double descuentoJuridico = 0.15;
 	private String cuit;
 	private String nombreFantasia;
 	public PersoonaJuridica(String cuit, String nombreFantasia) {
@@ -12,7 +12,7 @@ public class PersoonaJuridica extends Persoona {
 
 	@Override
 	protected double getDescuento() {
-		return PersoonaJuridica.descuento;
+		return PersoonaJuridica.descuentoJuridico;
 	}
 
 	public String getCuit() {

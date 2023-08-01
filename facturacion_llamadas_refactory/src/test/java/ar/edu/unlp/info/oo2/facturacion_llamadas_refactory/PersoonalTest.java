@@ -19,42 +19,34 @@ class PersoonalTest {
 		this.sistema.agregarTelefono("2214444556");
 		this.sistema.agregarTelefono("2214444557");
 		
-		this.emisorPersonaFisca = sistema.registrarUsuario(new PersoonaFisica("11555666", "Marcelo" , "Tinelli"));
-		this.remitentePersonaFisica = sistema.registrarUsuario(new PersoonaFisica("00000001", "Mirtha " , "Legrand"));
-		this.emisorPersonaJuridica = sistema.registrarUsuario(new PersoonaJuridica("17555222", "Felfort"));
-		this.remitentePersonaJuridica = sistema.registrarUsuario(new PersoonaJuridica("25765432", "Moovistar"));
+		this.emisorPersonaFisca = sistema.registrarUsuarioFisico("11555666", "Marcelo Tinelli");
+		this.remitentePersonaFisica = sistema.registrarUsuarioFisico("00000001", "Mirtha Legrand");
+		this.emisorPersonaJuridica = sistema.registrarUsuarioJuridico("17555222", "Felfort");
+		this.remitentePersonaJuridica = sistema.registrarUsuarioJuridico("25765432", "Moovistar");
 		
-		emisorPersonaJuridica.registrarLlamada(
-				new LlamadaNacional(emisorPersonaJuridica.getTelefono(),
-						remitentePersonaFisica.getTelefono(), 10)
+		emisorPersonaJuridica.registrarLlamadaNacional(
+						remitentePersonaFisica, 10
 		);
-		emisorPersonaJuridica.registrarLlamada(
-				new LlamadaInternacional(emisorPersonaJuridica.getTelefono(),
-						remitentePersonaFisica.getTelefono(), 8)
+		emisorPersonaJuridica.registrarLlamadaInternacional(
+						remitentePersonaFisica, 8
 		);
-		emisorPersonaJuridica.registrarLlamada(
-				new LlamadaNacional(emisorPersonaJuridica.getTelefono(), 
-						remitentePersonaJuridica.getTelefono(), 5)
+		emisorPersonaJuridica.registrarLlamadaNacional(
+						remitentePersonaJuridica, 5
 		);
-		emisorPersonaJuridica.registrarLlamada(
-				new LlamadaInternacional(emisorPersonaJuridica.getTelefono(),
-						remitentePersonaJuridica.getTelefono(), 7)
+		emisorPersonaJuridica.registrarLlamadaInternacional(
+						remitentePersonaJuridica, 7
 		);
-		emisorPersonaFisca.registrarLlamada(
-				new LlamadaNacional(emisorPersonaFisca.getTelefono(),
-						remitentePersonaFisica.getTelefono(), 15)
+		emisorPersonaFisca.registrarLlamadaNacional(
+						remitentePersonaFisica, 15
 		);	
-		emisorPersonaFisca.registrarLlamada(
-				new LlamadaInternacional(emisorPersonaFisca.getTelefono(),
-						remitentePersonaFisica.getTelefono(), 45)
+		emisorPersonaFisca.registrarLlamadaInternacional(
+						remitentePersonaFisica, 45
 		);	
-		emisorPersonaFisca.registrarLlamada(
-				new LlamadaNacional(emisorPersonaFisca.getTelefono(),
-						remitentePersonaJuridica.getTelefono(), 13)
+		emisorPersonaFisca.registrarLlamadaNacional(
+						remitentePersonaJuridica, 13
 		);	
-		emisorPersonaFisca.registrarLlamada(
-				new LlamadaInternacional(emisorPersonaFisca.getTelefono(),
-						remitentePersonaJuridica.getTelefono(), 17)
+		emisorPersonaFisca.registrarLlamadaInternacional(
+						remitentePersonaJuridica, 17
 		);			
 	}
 
@@ -70,7 +62,7 @@ class PersoonalTest {
 	void testAgregarUsuario() {
 		assertEquals(this.sistema.cantidadDeUsuarios(), 4);
 		this.sistema.agregarTelefono("2214444558"); 
-		Persoona nuevaPersona = this.sistema.registrarUsuario(new PersoonaFisica("2444555","Chiche","Gelblung"));
+		Persoona nuevaPersona = this.sistema.registrarUsuarioFisico("2444555","Chiche Gelblung");
 		
 		assertEquals(this.sistema.cantidadDeUsuarios(), 5);
 		assertTrue(this.sistema.existeUsuario(nuevaPersona));
